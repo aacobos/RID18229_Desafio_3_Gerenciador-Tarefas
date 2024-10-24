@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonte usada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="task-manager">
+        <h1>Board de tarefas</h1>
+
+        <!-- Formulário de entrada -->
+        <div class="task-input">
+            <input type="text" id="taskName" placeholder="Nome da tarefa">
+            <input type="text" id="taskLabel" placeholder="Etiqueta">
+            <button id="addTaskButton" class="add-task">+</button>
+        </div>
+
+        <!-- Lista de tarefas -->
+        <ul id="taskList"></ul>
+
+        <!-- Rodapé com contador de tarefas concluídas -->
+        
+        <footer>
+            <hr>
+            <span id="completedTasksCount">0 tarefas concluídas</span>
+        </footer>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
