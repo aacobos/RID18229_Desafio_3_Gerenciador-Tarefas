@@ -1,5 +1,7 @@
 # Gerenciador de Tarefas
 
+**Link do site disponibilizado**: https://desafio-3-gerenciador-tarefas.netlify.app/
+
 ### **Descrição**
 
 Este é um gerenciador de tarefas simples e intuitivo, projetado para ajudar os usuários a organizarem suas atividades diárias. A aplicação permite adicionar, concluir e armazenar tarefas localmente, utilizando o localStorage do navegador para manter os dados persistentes entre as sessões.
